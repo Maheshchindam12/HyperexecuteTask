@@ -1,0 +1,29 @@
+---
+version: 0.2
+runson: linux
+
+autosplit: true
+concurrency: 1
+
+runtime:
+  language: java
+  version: 17
+
+pre:
+  - mvn dependency:resolve
+
+framework:
+  name: maven/testng
+  defaultReports: false
+  flags:
+    - "-Dplatname=linux"
+    - "--file=pom.xml"
+
+retryOnFailure: true
+maxRetries: 3
+
+post:
+  - echo "Tests completed"
+  - cat demo.txt
+
+jobLabel: [selenium-testng, linux, autosplit]

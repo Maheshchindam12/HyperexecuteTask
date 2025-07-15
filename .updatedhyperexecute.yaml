@@ -1,0 +1,162 @@
+accessibilityJob: false
+alwaysRunPostSteps: false
+appium: null
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+captureScreenRecordingForScenarios: false
+codeDirectory: HyperExecutionLamdatestTask
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 1
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        artifacts: false
+        avoidAppLaunch: false
+        customData: {}
+        darkMode: false
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: null
+        isVirtualDevice: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mitmProxy: false
+        mobileDC: null
+        networkHar: false
+        otherApps: []
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        smartUI: null
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryMode: local
+    discoveryType: method
+    downloadURL: ""
+    flags:
+        - -Dplatname=linux
+        - --file=pom.xml
+    isTestNGXMLSuite: true
+    licenseKey: ""
+    name: maven/testng
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalPost:
+    commands: []
+    completed: false
+    mode: ""
+    runson: ""
+    shell: ""
+    workingDirectory: ""
+globalPre:
+    cache: false
+    commands: []
+    completed: false
+    location: ""
+    maxRetries: 0
+    mode: ""
+    runson: ""
+    shell: ""
+    type: ""
+    workingDirectory: ""
+    yamlPath: null
+jobID: 42007498-8c88-432e-bfc8-5b0a4fa29f10
+jobLabel:
+    - selenium-testng
+    - linux
+    - autosplit
+key: '********'
+localHTTPProxy: ""
+ltOptions: {}
+maxRetries: 3
+maxRetriesPreSteps: 0
+meta: {}
+platformConfig: null
+post:
+    - echo "Tests completed"
+    - cat demo.txt
+postDirectives:
+    commands:
+        - echo "Tests completed"
+        - cat demo.txt
+    shell: ""
+    workingDirectory: ""
+pre:
+    - mvn dependency:resolve
+preDirectives:
+    commands:
+        - mvn dependency:resolve
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: 01JZD0VJ58TK5WRREGFDXW0GN6
+    name: LambdaTest Default Project
+    type: custom
+projectpath: ""
+regionConfig:
+    storage:
+        enabled: false
+        name: ""
+        platform: azure
+        region: ""
+    vm: []
+retryOnFailure: true
+runson: linux
+runtime:
+    language: java
+    version: "17"
+    addons: []
+    opts: {}
+slackChannel: ""
+sourcePayload:
+    verifySSL: true
+sprofilePath: ""
+storageType: ""
+testDiscoveryResult:
+    - sample.TestClass#simpleTest
+testDiscoveryResult2D:
+    - - sample.TestClass#simpleTest
+testDiscoveryResultV3: []
+testSuites: []
+triggerMode: false
+triggerSource: CLI
+tunnelOpts:
+    testsPerTunnel: 10
+unzipPayload: false
+user: maheshch
+version: "0.2"
+waitForArtefactsUpload: false
+whiteLabelProductTag: ""

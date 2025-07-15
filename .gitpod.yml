@@ -1,0 +1,3 @@
+tasks:
+  - name: Run Maven Tests
+    command: mvn test

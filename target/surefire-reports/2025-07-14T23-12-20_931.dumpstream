@@ -1,0 +1,5 @@
+# Created at 2025-07-14T23:12:21.925
+Boot Manifest-JAR contains absolute paths in classpath 'D:\HyperExecutionLamdatestTask\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

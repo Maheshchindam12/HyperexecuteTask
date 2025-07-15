@@ -1,0 +1,83 @@
+{
+    "id": "6abadbb0-58a1-45a6-a60e-4be27089cbe9",
+    "created_at": "2025-07-15T17:16:19Z",
+    "update_at": "2025-07-15T17:16:55Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2025-07-15T17:16:53Z",
+    "end_time": "2025-07-15T17:16:55Z",
+    "summary": {
+        "total_time": 2000000000,
+        "execution_time": 2000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 4000000000,
+        "jobTestExecutionTime": "0s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "postrun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6abadbb0-58a1-45a6-a60e-4be27089cbe9"
+    },
+    "tasks": [
+        {
+            "id": "HYPL-2668412-1752599812659558339SAM",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-07-15T17:16:53Z",
+            "update_at": "2025-07-15T17:16:55Z",
+            "start_time": "2025-07-15T17:16:53Z",
+            "end_time": "2025-07-15T17:16:55Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "97204185-819b-4c08-8a06-ff456fc176e7",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2025-07-15T17:16:53Z",
+                    "started_at": "2025-07-15T17:16:54Z",
+                    "updated_at": "2025-07-15T17:16:54Z",
+                    "order": 1,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "HYPL-2668412-1752599812699152908BUX",
+            "os": "linux",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2025-07-15T17:16:53Z",
+            "update_at": "2025-07-15T17:16:55Z",
+            "start_time": "2025-07-15T17:16:53Z",
+            "end_time": "2025-07-15T17:16:55Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "6fc7c6b3-1ecb-40e9-b3a0-84295657ba65",
+                    "type": "postrun",
+                    "status": "completed",
+                    "name": "post",
+                    "iteration": 0,
+                    "link": "post.log",
+                    "created_at": "2025-07-15T17:16:53Z",
+                    "started_at": "2025-07-15T17:16:54Z",
+                    "updated_at": "2025-07-15T17:16:54Z",
+                    "order": 1,
+                    "task_number": 2
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}
